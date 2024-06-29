@@ -1,0 +1,5 @@
+/* styles.css */
+button[disabled] {
+  pointer-events: none;
+  cursor: default;
+}

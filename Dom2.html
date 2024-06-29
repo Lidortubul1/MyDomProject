@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פסקאות ניתנות להסתרה</title>
+    <link rel="stylesheet" href="Dom2.css"> <!-- קישור לקובץ CSS -->
+</head>
+<body>
+    <div class="container">
+ 
+        <p id="para1" class="visible">This is the first paragraph.</p>
+        <p id="para2" class="visible">This is the second paragraph.</p>
+        <p id="para3" class="visible">This is the third paragraph.</p>
+
+        <button onclick="toggleVisibility('para1')">Toggle first paragraph</button>
+        <button onclick="toggleVisibility('para2')">Toggle second paragraph</button>
+        <button onclick="toggleVisibility('para3')">Toggle third paragraph</button>
+
+    </div>
+
+    <script src="Dom2.js"></script> <!-- קישור לקובץ JavaScript -->
+</body>
+</html>

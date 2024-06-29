@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>הוספת מחלקה לפסקה</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="text" class="underline">This is a sample paragraph</p>
+    <input type="text" id="classInput" name="classInput">
+    <button onclick="addClass()">Add Class</button>
+
+    <script>
+        function addClass() {
+            var input = document.getElementById("classInput").value;
+            var paragraph = document.getElementById("text");
+            paragraph.classList.add(input);
+        }
+    </script>
+</body>
+</html>
